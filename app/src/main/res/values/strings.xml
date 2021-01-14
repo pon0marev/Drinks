@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Drinks</string>
     <string name="action_filters">Filters</string>
-
+    <string name="apply">Apply</string>
 
 
 </resources>

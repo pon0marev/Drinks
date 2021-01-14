@@ -1,10 +1,11 @@
-package com.example.drinks
+package com.example.drinks.Activity
 
+import android.content.Intent
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.example.drinks.R
 
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -34,5 +35,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun clickFilter(item: MenuItem) {}
+    fun clickFilter(item: MenuItem) {
+        val intent= Intent(this, FiltersActivity::class.java)
+        startActivity(intent)
+    }
 }
